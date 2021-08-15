@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coolness Meter</title>
+
+</head>
+
+<body>
+
+    <!-- Div for the Nav Bar-->
+    <div>
+        <nav id="title">
+            <h1>COOLNESS METER</h1>
+        </nav>
+    </div>
+
+    <!-- Div to add neatness-->
+    <div id="meter">
+        <h2>Good Luck...</h2>
+        <p> Find out how cool you are. Put your name into the text box below and press the button to get your score. Good luck....because you'll need it.
+        </p>
+        <form name="name">
+            <input type="text" id="name" required/>
+        </form>
+
+        <form name="cool" onclick="randomValue()">
+            <input type="text" id="randnum" size="5" readonly/>
+            <br>
+            <input type="button" name="myButton" value="Submit" />
+        </form>
+
+    </div>
+</body>
+
+</html>

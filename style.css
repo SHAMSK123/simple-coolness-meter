@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+
+#meter {
+    background-color: whitesmoke;
+    height: 500px;
+    width: 500px;
+    padding-top: 100px;
+    left: 100px;
+    right: 100px;
+}
+
+#title {
+    margin: 0;
+    padding: 0.5;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    color: silver;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div p {
+    color: black;
+    top: 100px;
+}
+
+#randnum {
+    size: 20;
+}
